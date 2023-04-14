@@ -8,3 +8,9 @@
 
 # Fichier .pro :
 - ajouter la ligne : QT += mqtt
+
+
+
+
+
+Si erreur ==============> CHATGPT
