@@ -29,7 +29,7 @@ int main(int argc_var, char *argv_t[])
         QString s_message = "AppYanis";
         if (!Client.publish(s_topic, s_message.toUtf8(), qos_var)) { // Publishing an MQTT message
             qDebug() << "Published message:" << s_message << "to topic:" << s_topic;
-            return 1;
+            return 1; //définir de préférence des constantes pour les retours, ca permet de rendre le code plus lisible
         } else {
             qDebug() << "Error publishing message:" << s_message << "to topic:" << s_topic;
         }
